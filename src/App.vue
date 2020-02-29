@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <Forum/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
+import Forum from "./components/forum";
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Forum
   }
 };
 </script>
